@@ -1,0 +1,12 @@
+# Org-roam 安装
+## MACOS上进行安装
+macOS 默认安装了 Emacs，但是版本比较低，建议大家从社区安装最新版。我之前比较常用的是 emacs-mac 这个版本，可以通过 Homebrew 安装：
+
+org-mode 是一种非常具有表达力的文档标记格式，并且配合 org-babel 可以执行代码块保存实验结果（类似 Jupyter Notebook）；
+org-roam 基于 org-mode 实现 Roam Research1, 2 的方式进行先进的笔记管理；
+
+$ brew tap railwaycat/emacsmacport
+$ brew install emacs-mac
+然后在终端里通过以下命令打开 Emacs：
+
+$ open -a /usr/local/opt/emacs-mac/Emacs.app/
