@@ -21,3 +21,11 @@ sudo apt install fonts-wqy-zenhei fonts-wqy-microhei
 
 **20260122_Microsoft_SharpKeys**
 Microsoft SharpKeys enable users to customize the shortcut of system by modifying the sys registry.
+**20260129_Chip_NM_FinFET**
+FinFET:Fin Feild-Effect Transistors
+Chip_size:in the early times, the chip size refers to the length of the gate length of a transistor, then in the past it is the physical meaning, but from the birth of FinFET, this indicator become the overall jargon of the CPU performance.
+
+git checkout: 移动HEAD的指向
+
+
+PhaseTransition and superfluid(He-3, He-4)
