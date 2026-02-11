@@ -29,3 +29,6 @@ git checkout: 移动HEAD的指向
 
 
 PhaseTransition and superfluid(He-3, He-4)
+
+Indeed the real number is truly human's invention. Basically speaking, human only have discrete numbers, down to the atomic level, we also found that atom has only discrete numbers, the measurement (to certain precision) is 
+discrete which is so amazing.
