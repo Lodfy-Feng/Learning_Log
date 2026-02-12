@@ -9,7 +9,7 @@ System: Windows
 Browser: Ungoogled Chrome
 extension:Vimium C/Highlight/Burning Vocabulary/Zotero
 
-Software:Matlab/AD/Quartus(Xlinix)/Vscode/WSL2(Debian)/Windows terminal/Windows sharpkey/ProcMon/Firewallsoftware(wtc)
+Software:Matlab/AD/Quartus(Xlinix)/Vscode/WSL2(Debian)/Windows terminal/Windows sharpkey/ProcMon/Firewallsoftware(wtc)/MobaXterm
 upper-layer plugin or tools: task
 
 
@@ -21,3 +21,4 @@ MacOS:
 
 My First Server:
 PowerEdge R730xd Dell(wtc)
+
