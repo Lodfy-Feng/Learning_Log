@@ -22,10 +22,22 @@ sudo apt install fonts-wqy-zenhei fonts-wqy-microhei
 **20260122_Microsoft_SharpKeys**
 Microsoft SharpKeys enable users to customize the shortcut of system by modifying the sys registry.
 **20260129_Chip_NM_FinFET**
-FinFET:Fin Feild-Effect Transistors
+[FinFET]:Fin Feild-Effect Transistors
 Chip_size:in the early times, the chip size refers to the length of the gate length of a transistor, then in the past it is the physical meaning, but from the birth of FinFET, this indicator become the overall jargon of the CPU performance.
 
 git checkout: 移动HEAD的指向
 
 
 PhaseTransition and superfluid(He-3, He-4)
+
+tmux MEMS CCD(Charged Couple device)
+[国是会-国是咨询委员会]
+    是遵照中共十七届五中全会提出的“顶层设计”理念，针对国际形势变革背景下的国家战略挑战，中国智国略公共管理咨询中心于2011年4月成立的学术性，研究性国家智库。
+
+男生女生出门在外，别人的家不要随便去，别人的饭不要随便吃，别人的水不要随便喝，自己的东西要保管好，别人的东西不要随便要，最便宜的东西最贵，切记切记，一定要小心。
+
+Microsoft windows上的Everything只搜索文件名。
+
+windows terminal: Crtl + Alt + T bundle
+First: a lot of Windows Apps store in the C:\Users\admin\AppData\Local\Microsoft\WindowsApps
+

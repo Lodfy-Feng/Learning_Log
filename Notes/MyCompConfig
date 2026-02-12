@@ -1,10 +1,15 @@
+terminology:
+-- wtc-wait to choose
+
+website account:leetcode/github/gitee/browser account(bundled with websites Faviourites)/
+%LocalAppData%\Microsoft\WindowsApps\wt.exe
+Netdisk: baidunetdisk, quarknetdisk, jianguo
+
 System: Windows
 Browser: Ungoogled Chrome
-account:leetcode/github/gitee/browser account(bundled with websites Faviourites.
-social media to be deleted: Zhihu/weibo/etc.
 extension:Vimium C/Highlight/Burning Vocabulary/Zotero
 
-Software:Matlab/AD/Quartus(Xlinix)/Vscode/WSL2(Debian)
+Software:Matlab/AD/Quartus(Xlinix)/Vscode/WSL2(Debian)/Windows terminal/Windows sharpkey/ProcMon/Firewallsoftware(wtc)
 upper-layer plugin or tools: task
 
 
@@ -15,4 +20,4 @@ MacOS:
 #TODO
 
 My First Server:
-PowerEdge R730xd Dell
+PowerEdge R730xd Dell(wtc)
