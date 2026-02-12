@@ -40,4 +40,4 @@ Mindwork and Spiritual force is also the core of any organization.
 Beauty is not evil, meaning the stars on the screen which represents the truly beauty and morale.
 
 
-
+All data(objects, representation(signal sharing), the write of data(objects info) ) need to be recorded.
