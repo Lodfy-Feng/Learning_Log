@@ -41,3 +41,6 @@ Beauty is not evil, meaning the stars on the screen which represents the truly b
 
 
 All data(objects, representation(signal sharing), the write of data(objects info) ) need to be recorded.
+
+
+I feel like the essense of human brain is probabilistic search in the memory.
