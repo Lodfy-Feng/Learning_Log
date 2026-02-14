@@ -44,3 +44,15 @@ All data(objects, representation(signal sharing), the write of data(objects info
 
 
 I feel like the essense of human brain is probabilistic search in the memory.
+
+
+Language is the description of past experience, and we use them to predict the future.Past experience means that you use it to describe what you feel(you see, you taste, you smell, you touch, you hear) and the words define and concentrates
+the set of properties, properties are the set of stable feeling.
+
+
+Human Brain function:feeling, Language(the most important), action, feeling. death.
+growth of body and brain.
+
+We can safely say that a man is a biological machine.
+
+别人说的话你就信吗？独立思考是研究的起点。
