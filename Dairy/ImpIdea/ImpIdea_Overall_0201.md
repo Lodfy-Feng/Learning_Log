@@ -50,7 +50,7 @@ Language is the description of past experience, and we use them to predict the f
 the set of properties, properties are the set of stable feeling.
 
 
-Human Brain function:feeling, Language(the most important), action, feeling. death.
+Human Brain function:feeling, Language(the most important,projection of time and experience), action, feeling. death.
 growth of body and brain.
 
 We can safely say that a man is a biological machine.
@@ -59,3 +59,5 @@ We can safely say that a man is a biological machine.
 
 
 数学是研究代数结构，拓扑结构 和 序结构， 是研究数和几何；物理是通过数学去精准描述现实无论是宏观还是微观的真实存在的数和物体的几何。
+
+
