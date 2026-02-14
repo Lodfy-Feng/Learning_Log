@@ -43,3 +43,5 @@ First: a lot of Windows Apps store in the C:\Users\admin\AppData\Local\Microsoft
 
 Indeed the real number is truly human's invention. Basically speaking, human only have discrete numbers, down to the atomic level, we also found that atom has only discrete numbers, the measurement (to certain precision) is 
 discrete which is so amazing.
+
+shift+Windows key + 4-----Windows Terminal
