@@ -56,3 +56,6 @@ growth of body and brain.
 We can safely say that a man is a biological machine.
 
 别人说的话你就信吗？独立思考是研究的起点。
+
+
+数学是研究代数结构，拓扑结构 和 序结构， 是研究数和几何；物理是通过数学去精准描述现实无论是宏观还是微观的真实存在的数和物体的几何。
