@@ -50,3 +50,7 @@ shift+Windows key + 4-----Windows Terminal
 
 
 对于制造业，一定要分工明确，对于这一点借鉴国企是很有帮助的，让老师傅带小学生，从理论实践入手，让小学生成长起来，传授经验，讲述道理，批判质疑，而不是把人当耗材，而是把人作为发展的主体，对人的生老病死负责任，将企业责任落实，置办真正的企业家精神，我不信一个小小的武汉我还改造不过来了？
+
+
+A sufficiently distinguished technology is indistinguishable form the magic, but magic should not be a religion.
+We need to keep the whole human beings to prosper.
