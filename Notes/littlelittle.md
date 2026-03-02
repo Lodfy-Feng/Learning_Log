@@ -54,3 +54,6 @@ shift+Windows key + 4-----Windows Terminal
 
 A sufficiently distinguished technology is indistinguishable form the magic, but magic should not be a religion.
 We need to keep the whole human beings to prosper.
+
+
+对于制造业，一定要分工明确，对于这一点借鉴国企经验是很有帮助的，让老师傅带小学生，从理论、实践入手，让小学生都成长起来，传授经验，讲述道理，批判质疑，而不是把人当耗材，而是把人作为发展的主体，对人的生老病死负责任，同时将企业责任落实，置办起来真正的企业家精神，同时还要成熟的培养体系，将人的技能培养起来。将中国制造问题从武汉解决，将产品真正打造起来。
