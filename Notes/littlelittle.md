@@ -45,3 +45,5 @@ Indeed the real number is truly human's invention. Basically speaking, human onl
 discrete which is so amazing.
 
 shift+Windows key + 4-----Windows Terminal
+
+对于一个数字来说，分为基数（一个位数的互斥状态数）、位数（有多少个位）和每位数字上特定的状态数。
