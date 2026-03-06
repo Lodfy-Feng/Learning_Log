@@ -62,3 +62,5 @@ We need to keep the whole human beings to prosper.
 
 
 行胜于言，用一切事实告诉大家你这套是对的。
+
+分析问题，解决问题的能力，弄清楚体制内的运行规则。
