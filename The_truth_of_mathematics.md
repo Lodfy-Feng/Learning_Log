@@ -5,3 +5,6 @@ I think it is necessary for me to write my understanding of this world, about th
 
 The memory is the input signal project the output motion  | or
 the thinking process projects the output motion.
+
+
+将原本不相关的结构也通过引入变量联系起来。
