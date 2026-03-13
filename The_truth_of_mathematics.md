@@ -8,3 +8,5 @@ the thinking process projects the output motion.
 
 
 将原本不相关的结构也通过引入变量联系起来。
+
+People call the human that does not correspond to the tranditional cultural meme a crazy man.

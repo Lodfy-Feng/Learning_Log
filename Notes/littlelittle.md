@@ -74,3 +74,6 @@ We need to keep the whole human beings to prosper.
 
 这不是退让，这是更艰难、也更高级的胜利。
 我的背后是千千万万的农民工人子弟兵。
+
+
+
