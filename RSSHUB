@@ -1,0 +1,302 @@
+作为极客、共产党员和终身学习者，您的信息需求非常清晰：**权威时政 + 学科前沿 + 极客资讯 + 招投标动态**。结合2026年最新的工具生态，我为您设计一套「高信噪比、可验证、符合价值观」的RSS订阅方案：
+
+---
+
+## 🧭 核心原则：三层过滤模型
+
+```
+权威源（政治可靠）→ 专业源（学科前沿）→ 聚合源（效率工具）
+```
+
+避免信息过载的关键：**宁缺毋滥，每个类别只订阅3-5个顶级源**。
+
+---
+
+## 📱 第一步：选择RSS阅读器（极客友好型）
+
+| 工具 | 优势 | 适合场景 |
+|------|------|----------|
+| **Fluent Reader** [[5]][[8]] | 开源跨平台、界面现代、支持全文抓取、本地优先 | 桌面端主力，数据自主可控 |
+| **Inoreader** [[7]][[21]] | 云端同步、规则过滤、支持全文搜索、移动端优秀 | 多设备同步+高级过滤需求 |
+| **Newsboat + RSSHub** [[5]][[44]] | 终端极客首选、配合RSSHub可订阅任意网页 | Vim/终端工作流深度用户 |
+| **Feedly + 自建后端** [[4]] | 商业级稳定、可搭配Self-hosted同步服务 | 企业级可靠性需求 |
+
+> 💡 建议组合：**Fluent Reader（主力阅读） + RSSHub（源生成） + Inoreader（移动端备用）**
+
+---
+
+## 🗂️ 第二步：分类订阅源推荐（附真实可用链接）
+
+### 🔴 权威时政类（共产党员必读，政治可靠）
+| 来源 | RSS地址 | 特点 |
+|------|---------|------|
+| **人民日报** | `https://plink.anyfeeder.com/people/rmrb` [[39]][[42]] | 党中央机关报，政策解读权威 |
+| **求是网** | `https://plink.anyfeeder.com/qstheory` [[42]] | 中共中央理论刊物，思想前沿 |
+| **新华社** | `https://plink.anyfeeder.com/xinhua` [[35]] | 国家通讯社，时政快讯第一手 |
+| **中国新闻网** | `https://www.chinanews.com.cn/rss/china.xml` [[34]] | 官方媒体，国际视角+国内权威 |
+| **央视新闻** | `https://plink.anyfeeder.com/weixin/cctvnewscenter` [[35]] | 视频+图文，重大事件直播同步 |
+
+> ✅ 全部源均来自官方或可信聚合平台 [[43]]，确保内容合规、更新及时
+
+---
+
+### 🔬 学科前沿类（终身学习者核心）
+
+#### 📚 综合学术
+| 来源 | RSS地址 | 说明 |
+|------|---------|------|
+| **Nature** | `https://www.nature.com/nature.rss` [[51]][[52]] | 顶级期刊，每周精选论文摘要 |
+| **Science** | `https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science` [[52]] | 美国科学促进会，多学科覆盖 |
+| **arXiv cs.AI** | `https://rss.arxiv.org/rss/cs.AI` [[66]][[67]] | AI领域预印本，更新最快 |
+| **arXiv 定制领域** | `https://arxiv.org/rss/[领域代码]` [[59]][[64]] | 如 `cs.LG`(机器学习)、`physics`(物理) 等 |
+
+#### 💻 技术极客
+| 来源 | RSS地址 | 特点 |
+|------|---------|------|
+| **阮一峰的网络日志** | `https://www.ruanyifeng.com/blog/atom.xml` [[12]] | 技术周报+前沿解读，中文优质 |
+| **美团技术团队** | `https://tech.meituan.com/feed/` [[12]] | 工业级实践，架构/算法干货 |
+| **V2EX 技术节点** | `https://www.v2ex.com/feed/tech.xml` [[12]] | 开发者社区，真实问题讨论 |
+| **Hacker News** | `https://news.ycombinator.com/rss` [[67]] | 全球极客风向标，需配合翻译 |
+
+#### 🤖 AI专项（2026热点）
+| 来源 | RSS地址 | 说明 |
+|------|---------|------|
+| **OpenAI Blog** | `https://openai.com/blog/rss` [[67]] | 官方技术发布，模型更新第一时间 |
+| **DeepMind** | `https://deepmind.google/blog/rss/` [[67]] | 前沿研究，强化学习/AGI方向 |
+| **机器之心** | `https://plink.anyfeeder.com/weixin/jiqizhixin` [[41]][[70]] | 中文AI资讯，论文解读+产业动态 |
+| **AI News Aggregator** | `https://github.com/SuYxh/ai-news-aggregator` [[77]] | 自动聚合80+源，支持关键词过滤 |
+
+---
+
+### 💼 招投标与商业信息（极客创业/项目参考）
+
+> ⚠️ 注意：多数政府采购网站**不直接提供RSS**，需配合工具生成
+
+| 来源 | 获取方式 | 说明 |
+|------|----------|------|
+| **中央政府采购网** | RSSHub路由：`/zycg/notice` [[44]][[47]] | 国家级采购公告，权威第一手 |
+| **中国招标投标网** | RSSHub：`/cecbid/announcement` [[50]][[44]] | 工信部指定发布媒体 |
+| **各省采购平台** | RSSHub通用路由 + 自定义规则 [[44]] | 如湖北：`/ccgp-hubei/notice` [[49]] |
+| **招投标聚合平台** | 寻标宝/招标雷达等APP推送 [[33]] | 商业平台，支持关键词订阅+微信通知 |
+
+> 🔧 工具推荐：**RSSHub**（开源自部署）+ **RSSHub Radar**（浏览器插件）可一键发现任意网页的RSS源 [[44]]
+
+---
+
+### 🌐 全球视野（合规前提下拓展认知）
+| 来源 | RSS地址 | 使用建议 |
+|------|---------|----------|
+| **BBC中文** | `https://feeds.bbci.co.uk/zhongwen/simp/rss.xml` [[37]] | 国际视角参考，注意交叉验证 |
+| **Reuters World** | `https://www.reuters.com/rssFeed/worldNews` | 英文快讯，配合翻译插件 |
+| **MIT Technology Review** | `https://plink.anyfeeder.com/mittr` [[71]] | 科技趋势研判，中文精选 |
+
+---
+
+## ⚙️ 第三步：高级配置技巧（极客专属）
+
+### 1. 信息降噪：规则过滤
+```yaml
+# Inoreader / Fluent Reader 规则示例
+- 标题包含 "广告" "推广" "抽奖" → 自动标记已读
+- 来源 = "arXiv" AND 关键词 = "your_research_field" → 高亮+邮件通知
+- 时政类文章 → 仅周末批量阅读，避免碎片干扰
+```
+
+### 2. 知识沉淀：RSS → 笔记系统
+```mermaid
+graph LR
+    A[RSS阅读器] -->|标记星标 | B(Obsidian/Logseq)
+    A -->|一键剪藏 | C(Zotero)
+    B & C -->|双向链接 | D[个人知识图谱]
+    D -->|定期回顾 | E[输出文章/决策参考]
+```
+- 配合 **Readwise** 或 **Cubox** 实现「稍后读+高亮同步」
+- Zotero + Better BibTeX 可自动管理学术引用 [[10]]
+
+### 3. 自动化：定时摘要推送
+```bash
+# 示例：每日早8点推送「前沿+时政」摘要到微信
+# 使用：RSSHub + Serverless + 微信测试号
+1. RSSHub 聚合指定源
+2. 云函数每日抓取未读标题+摘要
+3. 调用微信接口推送精简版（≤20条）
+```
+
+---
+
+## 🛡️ 特别提醒：共产党员的信息安全守则
+
+1. **优先订阅 `.gov.cn` `.cn` 域名源**，确保内容合规 [[47]][[30]]
+2. **谨慎使用境外聚合服务**，敏感信息建议本地阅读器处理
+3. **定期备份OPML订阅列表**，避免平台依赖
+4. **对「热点话题」保持交叉验证**：同一事件至少对比2个权威源
+
+---
+
+## 🚀 快速启动清单（10分钟配置）
+
+1. 安装 [Fluent Reader](https://fluent-reader.org/) [[8]]
+2. 导入预设OPML（含上述推荐源）：  
+   `https://raw.githubusercontent.com/RSS-Renaissance/awesome-newsCN-feeds/master/feedlist.opml` [[43]]
+3. 部署 RSSHub（Docker一键）：  
+   ```bash
+   docker run -d --name rsshub -p 1200:1200 diygod/rsshub
+   ```
+4. 在阅读器中添加自定义源：`http://你的服务器:1200/zycg/notice`
+
+---
+
+> 📌 **终极建议**：  
+> **工具是手段，思考是目的**。建议您先订阅「人民日报 + Nature + arXiv cs.AI + 中央政府采购网」4个核心源，运行1周后再逐步扩展。真正有价值的信息，往往藏在「持续追踪」而非「广泛收集」中。
+
+需要我为您生成一份完整的 `opml` 订阅文件，或针对某个学科领域（如人工智能/新能源/生物医药）定制更精细的订阅清单吗？
+
+以下是为您定制的 **OPML 订阅文件**，已按「权威时政→学科前沿→极客资讯→招投标」四层结构分类，可直接导入 Fluent Reader / Inoreader / Newsboat 等主流阅读器：
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>极客党员·终身学习者订阅清单</title>
+    <dateCreated>Fri, 13 Mar 2026 00:00:00 +0800</dateCreated>
+    <ownerId>geek-party-member-learner</ownerId>
+  </head>
+  <body>
+    <!-- 🔴 权威时政：共产党员必读，政治可靠 -->
+    <outline text="🔴 权威时政" title="🔴 权威时政">
+      <outline text="人民日报" title="人民日报" type="rss" xmlUrl="https://plink.anyfeeder.com/people/rmrb"/>
+      <outline text="求是网" title="求是网" type="rss" xmlUrl="https://plink.anyfeeder.com/qstheory"/>
+      <outline text="新华社" title="新华社" type="rss" xmlUrl="https://plink.anyfeeder.com/xinhua"/>
+      <outline text="中国新闻网·国内" title="中国新闻网·国内" type="rss" xmlUrl="https://www.chinanews.com.cn/rss/china.xml"/>
+      <outline text="央视新闻" title="央视新闻" type="rss" xmlUrl="https://plink.anyfeeder.com/weixin/cctvnewscenter"/>
+      <outline text="共产党员网" title="共产党员网" type="rss" xmlUrl="https://plink.anyfeeder.com/12371"/>
+      <outline text="学习强国·要闻" title="学习强国·要闻" type="rss" xmlUrl="https://plink.anyfeeder.com/xuexi"/>
+    </outline>
+
+    <!-- 🔬 学科前沿：学术/科研/跨学科 -->
+    <outline text="🔬 学科前沿" title="🔬 学科前沿">
+      <outline text="Nature" title="Nature" type="rss" xmlUrl="https://www.nature.com/nature.rss"/>
+      <outline text="Science" title="Science" type="rss" xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science"/>
+      <outline text="arXiv · cs.AI" title="arXiv · cs.AI" type="rss" xmlUrl="https://rss.arxiv.org/rss/cs.AI"/>
+      <outline text="arXiv · cs.LG" title="arXiv · cs.LG" type="rss" xmlUrl="https://rss.arxiv.org/rss/cs.LG"/>
+      <outline text="arXiv · physics" title="arXiv · physics" type="rss" xmlUrl="https://rss.arxiv.org/rss/physics"/>
+      <outline text="PNAS" title="PNAS" type="rss" xmlUrl="https://www.pnas.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=pnas"/>
+      <outline text="Cell" title="Cell" type="rss" xmlUrl="https://www.cell.com/cell/rss"/>
+    </outline>
+
+    <!-- 💻 技术极客：开发者/开源/工业实践 -->
+    <outline text="💻 技术极客" title="💻 技术极客">
+      <outline text="阮一峰的网络日志" title="阮一峰的网络日志" type="rss" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml"/>
+      <outline text="美团技术团队" title="美团技术团队" type="rss" xmlUrl="https://tech.meituan.com/feed/"/>
+      <outline text="V2EX · 技术节点" title="V2EX · 技术节点" type="rss" xmlUrl="https://www.v2ex.com/feed/tech.xml"/>
+      <outline text="Hacker News" title="Hacker News" type="rss" xmlUrl="https://news.ycombinator.com/rss"/>
+      <outline text="GitHub Trending" title="GitHub Trending" type="rss" xmlUrl="https://rsshub.app/github/trending/daily"/>
+      <outline text="InfoQ 中文" title="InfoQ 中文" type="rss" xmlUrl="https://plink.anyfeeder.com/weixin/infoqchina"/>
+      <outline text="Linux China" title="Linux China" type="rss" xmlUrl="https://linux.cn/rss.xml"/>
+    </outline>
+
+    <!-- 🤖 AI专项：大模型/应用/伦理 -->
+    <outline text="🤖 AI专项" title="🤖 AI专项">
+      <outline text="OpenAI Blog" title="OpenAI Blog" type="rss" xmlUrl="https://openai.com/blog/rss"/>
+      <outline text="DeepMind Blog" title="DeepMind Blog" type="rss" xmlUrl="https://deepmind.google/blog/rss/"/>
+      <outline text="机器之心" title="机器之心" type="rss" xmlUrl="https://plink.anyfeeder.com/weixin/jiqizhixin"/>
+      <outline text="AI Study Notes" title="AI Study Notes" type="rss" xmlUrl="https://ai-study-notes.com/feed/"/>
+      <outline text="Papers with Code" title="Papers with Code" type="rss" xmlUrl="https://paperswithcode.com/feed"/>
+      <outline text="arXiv · cs.CL" title="arXiv · cs.CL (NLP)" type="rss" xmlUrl="https://rss.arxiv.org/rss/cs.CL"/>
+    </outline>
+
+    <!-- 💼 招投标与商业：政府采购/项目动态 -->
+    <outline text="💼 招投标与商业" title="💼 招投标与商业">
+      <!-- 以下源需配合 RSSHub 使用，示例格式 -->
+      <outline text="🔧 RSSHub示例：中央政府采购" title="中央政府采购" type="rss" xmlUrl="http://localhost:1200/zycg/notice"/>
+      <outline text="🔧 RSSHub示例：中国招标投标网" title="中国招标投标网" type="rss" xmlUrl="http://localhost:1200/cecbid/announcement"/>
+      <outline text="🔧 RSSHub示例：湖北省政府采购" title="湖北省政府采购" type="rss" xmlUrl="http://localhost:1200/ccgp-hubei/notice"/>
+      <outline text="招标投标公共服务平台" title="招标投标公共服务平台" type="rss" xmlUrl="http://www.cebpubservice.com/rss/notice.xml"/>
+      <outline text="政府采购信息报" title="政府采购信息报" type="rss" xmlUrl="https://plink.anyfeeder.com/weixin/cgxxb"/>
+      <outline text="企查查·招投标" title="企查查·招投标" type="rss" xmlUrl="https://rsshub.app/qcc/tender/your_keyword"/>
+    </outline>
+
+    <!-- 🌐 全球视野：国际资讯（合规参考） -->
+    <outline text="🌐 全球视野" title="🌐 全球视野">
+      <outline text="BBC 中文" title="BBC 中文" type="rss" xmlUrl="https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"/>
+      <outline text="Reuters · World" title="Reuters · World" type="rss" xmlUrl="https://www.reuters.com/rssFeed/worldNews"/>
+      <outline text="MIT Technology Review" title="MIT Technology Review" type="rss" xmlUrl="https://plink.anyfeeder.com/mittr"/>
+      <outline text="The Economist" title="The Economist" type="rss" xmlUrl="https://www.economist.com/the-world-this-week/rss.xml"/>
+    </outline>
+
+    <!-- ⚙️ 工具与效率：极客工作流 -->
+    <outline text="⚙️ 工具与效率" title="⚙️ 工具与效率">
+      <outline text="Doom Emacs Docs" title="Doom Emacs Docs" type="rss" xmlUrl="https://github.com/doomemacs/doomemacs/releases.atom"/>
+      <outline text="Neovim Releases" title="Neovim Releases" type="rss" xmlUrl="https://github.com/neovim/neovim/releases.atom"/>
+      <outline text="RSSHub 更新" title="RSSHub 更新" type="rss" xmlUrl="https://github.com/DIYgod/RSSHub/releases.atom"/>
+      <outline text="Linux Kernel Blog" title="Linux Kernel Blog" type="rss" xmlUrl="https://kerneldog.wordpress.com/feed/"/>
+    </outline>
+  </body>
+</opml>
+```
+
+---
+
+## 📥 使用说明
+
+### 1️⃣ 导入阅读器
+- **Fluent Reader**：设置 → 导入/导出 → 选择本 OPML 文件
+- **Inoreader**：设置 → 导入 → 上传文件
+- **Newsboat**：`~/.newsboat/urls` 文件顶部添加 `include ~/path/to/this.opml`
+
+### 2️⃣ RSSHub 源配置（招投标类必读）
+上述 `💼 招投标` 分类中的源为 **RSSHub 路由示例**，需先部署 RSSHub：
+
+```bash
+# 一键部署（Docker）
+docker run -d --name rsshub -p 1200:1200 \
+  -e CACHE_EXPIRE=3600 \
+  diygod/rsshub:chromium-bundled
+```
+
+部署后，将 OPML 中 `http://localhost:1200/xxx` 替换为您的服务器地址：
+```xml
+<!-- 示例：替换前 -->
+xmlUrl="http://localhost:1200/zycg/notice"
+<!-- 替换后（假设服务器为 192.168.1.100） -->
+xmlUrl="http://192.168.1.100:1200/zycg/notice"
+```
+
+### 3️⃣ 敏感信息处理建议
+- 招投标类信息涉及商业敏感内容，建议：
+  - RSSHub 部署在**内网/私有云**
+  - 阅读器启用**本地加密存储**
+  - 定期清理已读项，避免信息残留
+
+---
+
+## 🔄 维护建议（终身学习者专属）
+
+| 周期 | 动作 | 目的 |
+|------|------|------|
+| **每周日** | 快速扫读「权威时政」+「AI专项」星标项 | 把握政策方向+技术趋势 |
+| **每月初** | 检查「招投标」源更新频率，剔除失效链接 | 保证信息时效性 |
+| **每季度** | 回顾订阅列表，删除3个月未打开的源 | 对抗信息熵增 |
+| **每半年** | 导出备份 OPML + 笔记系统同步 | 防止平台依赖风险 |
+
+---
+
+## 💡 进阶：自动化知识沉淀（可选）
+
+如果您使用 Obsidian/Logseq，可配合以下工具实现「RSS → 笔记」自动流转：
+
+```bash
+# 示例：使用 rss2org 将星标项转为 Org 笔记
+# 安装：pip install rss2org
+rss2org --input starred.xml --output ~/notes/inbox/ \
+        --template "{{title}}\n\n来源: {{link}}\n时间: {{pubDate}}\n\n{{content}}"
+```
+
+> 📌 **核心提醒**：订阅是手段，思考是目的。建议初期**仅启用「权威时政 + Nature + arXiv cs.AI + 中央政府采购」4个核心源**，运行1周后再逐步扩展，避免陷入「收藏即学会」的陷阱。
+
+需要我为您：
+1. 生成带 **RSSHub 自动配置脚本** 的增强版 OPML？
+2. 针对 **人工智能/新能源/生物医药** 等具体领域定制细分订阅清单？
+3. 提供 **Fluent Reader + Obsidian + Zotero** 的联动配置指南？
+
+请告诉我您的需求方向，我可进一步定制。
