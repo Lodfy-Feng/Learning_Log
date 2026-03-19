@@ -24,7 +24,7 @@ Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 ```
 Then we execute this cmd:
 ```
-Start Service sshd
+Start-Service sshd
 ```
 we can even set sshd as an automatic starter as the PC starts:
 ```
