@@ -77,3 +77,6 @@ We need to keep the whole human beings to prosper.
 
 
 
+UEFI是一个现代化的固件标准，旨在取代传统的BIOS，它提供了更高效、安全和灵活的启动环境，支持64位操作、图形用户界面（GUI)以及更复杂的初始化功能，UEFI是硬件厂商需要遵守的标准，启示：我们生活在生活中，各种生产活动都必须遵守上下游的标准，实现经济产品生活的规范和循环化。
+
+EDK2(EFI Developer Kit II)是UEFI规范的具体实现，它是由Intel主导的一个开源项目，提供了一个开发包（SDK)和相关资源，用于构建UEFI驱动程序和管理模块。
